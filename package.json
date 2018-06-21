@@ -1,6 +1,6 @@
 {
-  "name": "pkg",
-  "version": "1.0.0",
+  "name": "@kard/react-form",
+  "version": "0.0.1",
   "description": "",
   "main": "lib/library.js",
   "scripts": {
@@ -17,11 +17,11 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dkarmalita/.../issues"
+    "url": "https://github.com/dkarmalita/react-form/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dkarmalita/....git"
+    "url": "git+https://github.com/dkarmalita/react-form.git"
   },
   "deprecated": false,
   "devDependencies": {
