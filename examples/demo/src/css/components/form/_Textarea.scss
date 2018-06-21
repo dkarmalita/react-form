@@ -1,0 +1,6 @@
+.Textarea {
+    @include unfocused-border()
+    padding: 10px;
+
+    &:focus { @include focused-border() }
+}

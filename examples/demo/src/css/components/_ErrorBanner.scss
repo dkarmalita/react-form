@@ -1,0 +1,4 @@
+.ErrorBanner {
+  @include danger-text();
+  margin: 5px 0;
+}

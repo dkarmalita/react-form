@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --hot",
+    "build": "webpack --mode production",
+    "clean": "rm -rf node_modules && rm -f ./dist/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "react-hot-loader": "^4.3.0",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
