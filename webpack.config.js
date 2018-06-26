@@ -12,17 +12,7 @@ function peersToExternals(peers){
   .reduce((obj, cur, i) => { return { ...obj, [cur]: cur }; }, {});
 }
 
-var libraryName = 'library';
-var outputFile = libraryName + '.js';
-
-switch (process.env.NODE_ENV) {
-  case 'production':
-    outputFile = libraryName + '.min.js'
-    break
-  case 'development':
-  default:
-    outputFile = libraryName + '.js';
-}
+// process.env.NODE_ENV === 'production' || 'development'
 
 module.exports = {
   entry: __dirname + '/src/index.js',
