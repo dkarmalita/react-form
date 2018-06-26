@@ -1,5 +1,6 @@
-# pkg
+## Generating the project
 
+```sh
 npm init -y
 
 npm add -D webpack webpack-cli
@@ -14,6 +15,7 @@ npm add -D babel-plugin-transform-class-properties
 echo '{ "presets": ["env", "react"] }' > .babelrc
 
 mkdir src && echo "console.log('Hello World')" > ./src/index.js
+```
 
 webpack.config.js
 ```js
@@ -68,12 +70,3 @@ scripts
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 ```
-
-### Help Wanted!
-
-Do you want to improve the app or add any useful features? Please go ahead and create pull requests. I'm thankful for any help.
-
-### License
-
-Everything in this project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
-

@@ -1,6 +1,6 @@
 # @kard/react-form
 
-### How to run example
+## How to run example
 
 ```sh
 git clone https://github.com/dkarmalita/react-form.git
@@ -9,7 +9,7 @@ cd examples/demo && npm i
 npm start
 ```
 
-### How to develop
+## How to develop
 
 ```sh
 git clone https://github.com/dkarmalita/react-form.git
@@ -24,10 +24,10 @@ npm start
 
 Now you should be able to open the demo application at `http://localhost:9000`.
 
-### Help Wanted!
+## Help Wanted!
 
 Do you want to improve the app or add any useful features? Please go ahead and create pull requests. I'm thankful for any help.
 
-### License
+## License
 
 Everything in this project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
